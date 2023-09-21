@@ -1,4 +1,4 @@
-# 212 Project
+# Term Project
 
 <img src="https://techworm.net/programming/wp-content/uploads/2018/07/pic.png" alt="image">
 
