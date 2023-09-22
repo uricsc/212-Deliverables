@@ -1,6 +1,6 @@
 # Assignment 2
 
-The goal of this assignment is to review the use of *classes* and *dynamic arrays* in `C++`, both in the context of a *maze generation* application.  The assignment is worth a total of 50 points. If you have any questions or need any help, please visit us during office hours and/or post questions on edstem.
+The goal of this assignment is to review the use of *classes* and *dynamic arrays* in `C++`, both in the context of a *maze generation* application.  The assignment is worth a total of 75 points. If you have any questions or need any help, please visit us during office hours and/or post questions on edstem.
 
 > If you need to post any of your actual source code on edstem for any reason, **please** be sure to tag the post as being *private* / *visible to instructors only*, so that you don't inadvertently share code with others and violate class rules on *plagiarism*.
 
