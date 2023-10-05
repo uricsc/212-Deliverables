@@ -46,7 +46,7 @@ The Priority Queue has the same properties as the Queue in addition to the follo
 
 Lets compare the performance of a Queue with a Priority Queue:
 
-|         | Queue | Enqueue |
+|         | Queue | Priority |
 | :-----: | :---: | :-----: |
 | Enqueue | O(1)  |  O(n)   |   <----
 | Dequeue | O(1)  |  O(1)   |
