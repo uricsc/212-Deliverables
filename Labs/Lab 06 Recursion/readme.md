@@ -24,7 +24,7 @@ Before you begin implementing recursive algorithms for yourself, you'll be guide
 
 First, open the file `sum.cpp` that came with this lab (or copy it in if you're not using git). All you have is a small `main` and an empty function `sum` which presently returns 0. Enter each of the following lines after reading the description for each, starting at line `4`.
 
-```
+``` cpp
 if (n == 0) {
     return 0;
 }
@@ -32,7 +32,7 @@ if (n == 0) {
 
 For most recursive algorithms, the best place to start is the base case, and since it's so important (and allows you to end your function early with a `return`) it will often be at the top. The base case should be a small sub-problem which can be solved easily. In this case, `sum(0)` should sum no numbers from 1 to n, so it is defined to be 0, which will be a useful value when we consider the recursive step. Thus, you should note there are two important things going on here: we are *checking for the base case* with `n == 0`, and we are *solving the base case* by returning 0.
 
-```
+``` cpp
 unsigned long sub_sum = sum(n - 1);
 ```
 
@@ -40,7 +40,7 @@ To reach this line, the base case must be false `(n != 0)`, and so we must now r
 
 > Note: Often times instead of storing the value of the recursive call in a variable we will use it directly, either in some other computation to be stored in a variable or right in the return statement itself.
 
-```
+``` cpp
 unsigned long total = n + sub_sum;
 ```
 
@@ -48,7 +48,7 @@ Finally, we address the third question: "how can the solution to the smaller pro
 
 > Note: In some recursive problems, such as fibonacci, there will be more than one sub-problem needing to be solved, requiring multiple recursive calls, typically with different inputs. In such cases, the combination step requires combining the solutions to *all* the sub-problems to solve the whole problem. On the other hand, sometimes there is no combination step required, despite there being recursive calls. This is often the case with recursive functions with side-effects.
 
-```
+``` cpp
 return total;
 ```
 
