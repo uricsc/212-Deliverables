@@ -131,7 +131,7 @@ The objective of the puzzle is to move the entire stack from the starting rod (s
 
 Here is an illustration of a solution:
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlcQraElE0GuKYDA3AhB_rxOXGGjVITvej6g&usqp=CAU" alt="Java Programming Challenge: Recursing the Towers of Hanoi - dummies" style="zoom:200%;" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlcQraElE0GuKYDA3AhB_rxOXGGjVITvej6g&usqp=CAU" alt="tower-of-hanoi-using-recursion" style="zoom:200%;" />
 
 Write a recursive function that accepts 3 parameters (*num_disks*, *source_rod*, *destination_rod*) and outputs the moves needed to solve the puzzle.
 
