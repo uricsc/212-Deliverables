@@ -1,4 +1,4 @@
-# Homework Assignment 4
+# Assignment 4
 
 The goal of this assignment is to practice recursion and stacks.  The assignment is worth a total of 75 points.  If you have any questions or need any help, please visit us during office hours and/or post questions on EdStem.
 
