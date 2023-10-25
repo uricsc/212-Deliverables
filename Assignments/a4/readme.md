@@ -4,7 +4,7 @@ The goal of this assignment is to practice recursion and stacks.  The assignment
 
 > If you need to post any of your actual source code on Piazza for any reason, **please** be sure to tag the post as being *visible to instructors only*, so that you don't inadvertently share code with others and violate class rules on *plagiarism*.
 
-## `1. Counting Cells (20 pts)`
+## `1. Counting Cells (15 pts)`
 Consider a grid of cells in two dimensions, where each cell is considered `empty` or `filled`.  Any number of cells that are *connected* constitutes a `blob`.  Every cell can either be connected to 4 adjacent cells (vertically, horizontally) or to 8 adjacent cells (vertically, horizontally, diagonally).  The goal of your program is to **recursively** count the number of cells in a blob, given a starting cell.
 
 <img src="blobs.png" width="700"/>
@@ -53,7 +53,7 @@ $ ./cells grid.txt 8 8 5 2 8
 24
 ```
 
-## `2. Counting Blobs (20 pts)`
+## `2. Counting Blobs (15 pts)`
 Consider the same grid specification from the problem above, the goal of your program now is to count the total number of blobs.
 
 ### Input
@@ -93,7 +93,7 @@ $ ./blobs grid.txt 8 8 8
 2
 ```
 
-## `3. Finding a Good Path (30 pts)`
+## `3. Finding a Good Path (15 pts)`
 Given a 2-dimensional grid representing elevations of a map, determine the lowest and highest points and whether there is a path between them that never goes down.  This problem is a slightly modified version of one of the problems in the [BOSPRE 2018](http://hc3.seas.harvard.edu/hc3/bospre/) competition.
 
 ### Input
@@ -186,7 +186,7 @@ Parentheses are not necessary in postfix expressions because the order of operat
 
 > Note that, in this assignment, we define an integer division as a floor division.  That explains why in the table above 12 / -36 is evaluated to -1, as `floor(-0.333333) = -1`.
 
-### `Transforming Infix to Postfix notation (30 points)`
+### `Transforming Infix to Postfix notation (15 points)`
 You will implement a program that converts arithmetic expressions from infix notation to postfix notation.  Your program will receive an infix expression as the first command line argument and will output the equivalent expression in postfix notation to the standard output.  You can assume that all infix expressions are syntactically correct.  See the example below:
 ```bash
 $ ./in2pos "-10 + 20 * ( 30 / 2 )"
@@ -211,7 +211,7 @@ if end of the string
 
 A few examples of this conversion are available in [examples 1](https://cs.nyu.edu/courses/Fall12/CSCI-GA.1133-002/notes/InfixToPostfixExamples.pdf) and [examples 2](https://en.wikipedia.org/wiki/Shunting-yard_algorithm).
 
-### `Evaluating a postfix expression (20 points)`
+### `Evaluating a postfix expression (15 points)`
 Implement a program that evaluates an arithmetic expression in postfix notation.  Your program will receive a postfix expression as the first command line argument and will output the final value after *evaluating* the input expression.  You can assume that all input expressions are syntactically correct.
 ```bash
 $ ./eval "-10 20 30 2 / * +"
