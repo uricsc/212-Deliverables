@@ -128,6 +128,11 @@ You've been provided one input file and the outcomes for modes 1... There are tw
 `./bst test_1.txt 1`
 
 ```
+263 636 664 366 235 168 672 797 810 630
+168 797 3
+```
+
+```
 263 
 263 636 
 263 636 664 
