@@ -121,6 +121,28 @@ It should destroy the entire subtree starting at node recursively.
 You should create a public search method which takes an integer and returns a boolean indicating whether or not the node was found. 
 It should search the tree recursively and return true if and only if the value is found, false otherwise.
 
+### 4.3 Outcomes
+
+You've been provided one input file and the outcomes for modes 1... There are two unknown test cases and six (6) other modes to consider...
+
+`./bst test_1.txt 1`
+
+```
+263 
+263 636 
+263 636 664 
+263 636 366 664 
+263 235 636 366 664 
+263 235 168 636 366 664 
+263 235 168 636 366 664 672 
+263 235 168 636 366 664 672 797 
+263 235 168 636 366 664 672 797 810 
+263 235 168 636 366 630 664 672 797 810 
+263 235 636 366 630 664 672 797 810 
+263 235 636 366 630 664 672 810 
+263 235 636 366 630 664 672 810 
+```
+
 ## 5. Submission
 
 Your submission to this lab will be the following files:
