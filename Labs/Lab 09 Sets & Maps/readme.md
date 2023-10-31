@@ -108,7 +108,7 @@ You will be given confirmed_cases.txt (database of confirmed COVID-19 cases), an
 
 ### 5.2 Questions
 
-Create a text file called lab_11.txt and provide the answers to the following questions:
+In Gradescope, respond to the following questions in Lab 9 : Sets & Maps {QUESTIONS}
 
 1. What is the big O runtime of insert on a set? A map?
 2. What is the difference between a set and a map?
@@ -119,4 +119,5 @@ Create a text file called lab_11.txt and provide the answers to the following qu
 
 ## 6. Submission
 
-You will submit your set_map.cpp and lab_11.txt files to Gradescope.
+You will submit your `set_map.cpp` to Lab 09 : Sets & Maps {CODE}
+and your question responses to Lab 09 : Sets & Maps {QUESTIONS}
