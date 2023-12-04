@@ -166,6 +166,8 @@ This is the output for **PriorityQueue** with **test7.txt**
 (76,1)
 ```
 
+**Note: in the case of a key out of range : return `(-100,-100)`** 
+
 -----
 
 ## [Submission](#submission)
